@@ -1,0 +1,29 @@
+# Usa a imagem oficial do Node.js
+FROM node:18
+
+# Define o diretório de trabalho
+WORKDIR /app
+
+# Remove o package-lock.json e node_modules (se existirem)
+RUN rm -rf package-lock.json node_modules
+
+# Copia os arquivos de dependências
+COPY package.json ./
+
+# Instala as dependências explicitamente sem usar qualquer cache
+RUN npm install --no-cache
+
+# Instala as dependências de dev necessárias
+RUN npm install --no-cache --save-dev postcss postcss-flexbugs-fixes postcss-preset-env
+
+# Copia o restante do código
+COPY . .
+
+# Compila os assets (opcional, se necessário)
+RUN npm run build
+
+# Expõe a porta do Next.js
+EXPOSE 3000
+
+# Comando para iniciar o frontend em modo de desenvolvimento
+CMD ["npm", "run", "dev"]

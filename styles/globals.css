@@ -1,0 +1,16 @@
+/* Import Bootstrap CSS */
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* Custom styles can be added below */
+body {
+    min-height: 100vh;
+    background: linear-gradient(to bottom right, #e6f3ff, #f5f5f5);
+}
+
+.product-card {
+    transition: box-shadow 0.3s;
+}
+
+.product-card:hover {
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+}

@@ -1,0 +1,194 @@
+[
+  {
+    "title": "Asus ROG STRIX...",
+    "price": "$799",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/51",
+    "description": "Asus ROG STRIX GL553VD-DM256, 15.6\" FHD, Core i5-7300HQ, 8GB, 1TB, GeForce GTX 1050 2GB, No OS",
+    "rating": "2",
+    "reviews": "7"
+  },
+  {
+    "title": "Apple MacBook...",
+    "price": "$1347.78",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/142",
+    "description": "Apple MacBook Air 13\", Intel Core i5 1.8GHz, 8GB, 256GB SSD, Intel HD 6000, RUS",
+    "rating": "2",
+    "reviews": "11"
+  },
+  {
+    "title": "Ubuntu Edge",
+    "price": "$499.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/6",
+    "description": "Sapphire glass",
+    "rating": "1",
+    "reviews": "2"
+  },
+  {
+    "title": "Lenovo IdeaTab",
+    "price": "$69.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/10",
+    "description": "7\" screen, Android",
+    "rating": "3",
+    "reviews": "7"
+  },
+  {
+    "title": "IdeaTab A3500L",
+    "price": "$88.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/15",
+    "description": "Black, 7\" IPS, Quad-Core 1.2GHz, 8GB, Android 4.2",
+    "rating": "4",
+    "reviews": "7"
+  },
+  {
+    "title": "Acer Iconia",
+    "price": "$96.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/11",
+    "description": "7\" screen, Android, 16GB",
+    "rating": "1",
+    "reviews": "7"
+  },
+  {
+    "title": "Galaxy Tab 3",
+    "price": "$97.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/18",
+    "description": "7\", 8GB, Wi-Fi, Android 4.2, White",
+    "rating": "2",
+    "reviews": "2"
+  },
+  {
+    "title": "Iconia B1-730H...",
+    "price": "$99.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/27",
+    "description": "Black, 7\", 1.6GHz Dual-Core, 8GB, Android 4.4",
+    "rating": "3",
+    "reviews": "1"
+  },
+  {
+    "title": "Memo Pad HD 7",
+    "price": "$101.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/23",
+    "description": "IPS, Dual-Core 1.2GHz, 8GB, Android 4.3",
+    "rating": "2",
+    "reviews": "10"
+  },
+  {
+    "title": "Asus MeMO Pad",
+    "price": "$102.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/12",
+    "description": "7\" screen, Android, 8GB",
+    "rating": "4",
+    "reviews": "14"
+  },
+  {
+    "title": "Amazon Kindle",
+    "price": "$103.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/13",
+    "description": "6\" screen, wifi",
+    "rating": "4",
+    "reviews": "3"
+  },
+  {
+    "title": "Galaxy Tab 3",
+    "price": "$107.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/22",
+    "description": "7\", 8GB, Wi-Fi, Android 4.2, Yellow",
+    "rating": "2",
+    "reviews": "14"
+  },
+  {
+    "title": "IdeaTab A8-50",
+    "price": "$121.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/28",
+    "description": "Blue, 8\" IPS, Quad-Core 1.3GHz, 16GB, Android 4.2",
+    "rating": "2",
+    "reviews": "13"
+  },
+  {
+    "title": "MeMO Pad 7",
+    "price": "$130.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/20",
+    "description": "White, 7\", Atom 1.2GHz, 8GB, Android 4.4",
+    "rating": "1",
+    "reviews": "11"
+  },
+  {
+    "title": "IdeaTab A3500-...",
+    "price": "$148.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/17",
+    "description": "Blue, 7\" IPS, Quad-Core 1.3GHz, 8GB, 3G, Android 4.2",
+    "rating": "2",
+    "reviews": "9"
+  },
+  {
+    "title": "IdeaTab S5000",
+    "price": "$172.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/26",
+    "description": "Silver, 7\" IPS, Quad-Core 1.2Ghz, 16GB, 3G, Android 4.2",
+    "rating": "3",
+    "reviews": "8"
+  },
+  {
+    "title": "Galaxy Tab 4",
+    "price": "$233.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/21",
+    "description": "LTE (SM-T235), Quad-Core 1.2GHz, 8GB, Black",
+    "rating": "4",
+    "reviews": "1"
+  },
+  {
+    "title": "Galaxy Tab",
+    "price": "$251.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/16",
+    "description": "16GB, White",
+    "rating": "3",
+    "reviews": "14"
+  },
+  {
+    "title": "MeMo PAD FHD 1...",
+    "price": "$320.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/25",
+    "description": "White, 10.1\" IPS, 1.6GHz, 2GB, 16GB, Android 4.2",
+    "rating": "2",
+    "reviews": "7"
+  },
+  {
+    "title": "Galaxy Note",
+    "price": "$399.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/29",
+    "description": "10.1\", 3G, Android 4.0, Garnet Red",
+    "rating": "4",
+    "reviews": "12"
+  },
+  {
+    "title": "Galaxy Note",
+    "price": "$489.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/19",
+    "description": "12.2\", 32GB, WiFi, Android 4.4, White",
+    "rating": "3",
+    "reviews": "9"
+  },
+  {
+    "title": "iPad Mini Reti...",
+    "price": "$537.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/14",
+    "description": "Wi-Fi + Cellular, 32GB, Silver",
+    "rating": "2",
+    "reviews": "8"
+  },
+  {
+    "title": "Galaxy Note 10...",
+    "price": "$587.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/24",
+    "description": "10.1\", 32GB, Black",
+    "rating": "2",
+    "reviews": "6"
+  },
+  {
+    "title": "Apple iPad Air",
+    "price": "$603.99",
+    "link": "https://webscraper.io/test-sites/e-commerce/allinone/product/30",
+    "description": "Wi-Fi, 64GB, Silver",
+    "rating": "3",
+    "reviews": "7"
+  }
+]
