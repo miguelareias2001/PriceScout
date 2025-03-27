@@ -1,48 +1,21 @@
-# PriceScout
+# PriceScraper
 
-A web application for monitoring product prices in real-time.
+## Estrutura do Projeto
+- `api/`: Backend com Express.js
+- `crawler/`: Crawler com Crawlee e Playwright
+- `db/`: Scripts SQL para o PostgreSQL
+- `frontend/`: Frontend com Next.js e Bootstrap
 
-## Features
+## Como Correr
+1. Instale as dependências:
+   - Backend: `npm install`
+   - Frontend: `cd frontend && npm install`
+2. Configure o ficheiro `.env` com as variáveis necessárias.
+3. Use Docker: `docker-compose up`
+   - Backend: `http://localhost:3000`
+   - Frontend: `http://localhost:3001`
+4. Ou corra manualmente: `npm run dev`
 
-- Automated web scraping of product data
-- Real-time price monitoring
-- Responsive Bootstrap UI
-- PostgreSQL database for data storage
-
-## Tech Stack
-
-- **Frontend**: Next.js with Bootstrap
-- **Backend**: Node.js
-- **Database**: PostgreSQL
-- **Web Scraping**: Playwright
-- **Containerization**: Docker and Docker Compose
-
-## Getting Started
-
-### Running Locally
-
-1. Install dependencies:
-   ```bash
-   npm install
-   ```
-
-2. Set up PostgreSQL database:
-   ```bash
-   # Create database named 'pricescout'
-   # Set password for postgres user to '1234'
-   ```
-
-3. Start the backend server:
-   ```bash
-   node server.js
-   ```
-
-4. Start the Next.js frontend:
-   ```bash
-   npm run dev
-   ```
-
-5. Open http://localhost:3000 in your browser
-
-### Running with Docker
-
+## Scripts
+- `npm run dev`: Corre backend e frontend em modo de desenvolvimento.
+- `npm run crawl`: Executa o crawler.
