@@ -1,63 +1,45 @@
-# Dependencies
-/node_modules
-/.pnp
-.pnp.js
-
-# Testing
-/coverage
-
-# Next.js
-/.next/
-/out/
-.swc/
-
-# Production
-/build
-
-# Misc
-.DS_Store
-*.pem
-
-# Debug
+# Node.js
+node_modules/
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-.pnpm-debug.log*
+pnpm-debug.log*
 
-# Local env files
-.env*.local
-.env
+# Next.js
+.next/
+out/
 
-# Vercel
-.vercel
+# Playwright
+test-results/
+playwright-report/
 
-# TypeScript
-*.tsbuildinfo
-next-env.d.ts
-
-# Docker
-docker-volumes/
-pgdata/
-pgadmin-data/
+# Crawlee.dev (if applicable)
+crawlee-storage/
 
 # Logs
 logs
 *.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+lerna-debug.log*
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw?
-
-# OS generated files
+# OS
 .DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-ehthumbs.db
 Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swo
+*.swp
+
+# Environment
+.env
+.env.local
+.env.development
+.env.test
+.env.production
+
+# Miscellaneous
+*.local
