@@ -3,5 +3,7 @@ WORKDIR /app
 COPY package.json .
 RUN npm install
 COPY . .
+# Install browser dependencies for Playwright
+RUN npx playwright install --with-deps chromium
 EXPOSE 3000
-CMD ["npm", "start:backend"]
+CMD ["npm", "run", "start:backend"]

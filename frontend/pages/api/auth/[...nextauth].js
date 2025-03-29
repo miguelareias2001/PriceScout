@@ -13,10 +13,12 @@ const authOptions = {
       if (account) {
         token.accessToken = account.access_token;
       }
+      console.log('JWT Token:', token); // Debugging log
       return token;
     },
     async session({ session, token }) {
       session.accessToken = token.accessToken;
+      console.log('Session:', session); // Debugging log
       return session;
     },
   },

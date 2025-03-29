@@ -1,0 +1,52 @@
+{
+  "requestsFinished": 0,
+  "requestsFailed": 1,
+  "requestsRetries": 1,
+  "requestsFailedPerMinute": 5,
+  "requestsFinishedPerMinute": 0,
+  "requestMinDurationMillis": null,
+  "requestMaxDurationMillis": 0,
+  "requestTotalFailedDurationMillis": 699,
+  "requestTotalFinishedDurationMillis": 0,
+  "crawlerStartedAt": "2025-03-28T11:53:38.332Z",
+  "crawlerFinishedAt": "2025-03-28T11:53:50.014Z",
+  "statsPersistedAt": "2025-03-28T11:53:50.014Z",
+  "crawlerRuntimeMillis": 11719,
+  "crawlerLastStartTimestamp": 1743162818295,
+  "requestRetryHistogram": [
+    null,
+    null,
+    null,
+    1
+  ],
+  "statsId": 0,
+  "requestAvgFailedDurationMillis": 699,
+  "requestAvgFinishedDurationMillis": null,
+  "requestTotalDurationMillis": 699,
+  "requestsTotal": 1,
+  "requestsWithStatusCode": {
+    "200": 4
+  },
+  "errors": {
+    "/app/crawler/sites/worten.js:6:24": {
+      "missing error code": {
+        "TypeError": {
+          "parseXML is not a function": {
+            "count": 1
+          }
+        }
+      }
+    }
+  },
+  "retryErrors": {
+    "/app/crawler/sites/worten.js:6:24": {
+      "missing error code": {
+        "TypeError": {
+          "parseXML is not a function": {
+            "count": 3
+          }
+        }
+      }
+    }
+  }
+}
